@@ -1,0 +1,5 @@
+MAINTAINER 	Kaj Nelissen
+
+FROM		mariadb:10.1.12
+
+ENV			MYSQL_ROOT_PASSWORD=root
