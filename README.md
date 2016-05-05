@@ -10,7 +10,7 @@ To run the container without any mounted volumes:
 
 If you want to store your data, mount a volume when using the `docker run` command like this:
 
-    docker run --name <name of your container> -p :3306:3306 -v /some/dir:/var/lib/mysql -d kajnelissen/docker-mariadb:<tag>
+    docker run --name <name of your container> -p 3306:3306 -v /some/dir:/var/lib/mysql -d kajnelissen/docker-mariadb:<tag>
 
 This will mount the `/some/dir` directory from the host system as `/var/lib/mysql` in the container. See the documentation of the official image for more information about this.
 
