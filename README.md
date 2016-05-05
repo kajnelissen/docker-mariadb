@@ -6,7 +6,7 @@ This image extends the [official MariaDB docker image](https://hub.docker.com/_/
 
 To run the container without any mounted volumes:
 
-    docker run --name <name of your container> -p :3306:3306 -d kajnelissen/docker-mariadb:<tag>
+    docker run --name <name of your container> -p 3306:3306 -d kajnelissen/docker-mariadb:<tag>
 
 If you want to store your data, mount a volume when using the `docker run` command like this:
 
